@@ -3,76 +3,195 @@ document.addEventListener('DOMContentLoaded', function() {
     const machines = [
         {
             id: 1,
-            name: "Retroescavadeira",
-            description: "Ideal para escavações em terrenos diversos e movimentação de terra.",
-            image: "assets/images/retroescavadeira.jpg",
+            name: "Betoneira",
+            description: "Preparo de concreto em  sua obra de pequeno e médio porte.",
+            image: "/imgs/",
             specs: {
-                power: "85 HP",
-                capacity: "0.3 m³",
-                weight: "7.5 ton"
+  
             },
-            price: "R$ 800/dia"
+            price: "R$ 800/dia", 
         },
         {
             id: 2,
-            name: "Caminhão Munck",
-            description: "Para transporte e descarga de materiais com praticidade e segurança.",
+            name: "Andaimes",
+            description: "Estrutura de suporte para construção e manutenção de edifícios.",
             image: "assets/images/munck.jpg",
             specs: {
-                power: "210 HP",
-                capacity: "8 ton",
-                weight: "14 ton"
+            
             },
             price: "R$ 1.200/dia"
         },
         {
             id: 3,
-            name: "Rolo Compactador",
-            description: "Compactação de solos em aterros e pavimentação de vias.",
+            name: "Escoras",
+            description: " suporte temporário para estruturas durante a construção.",
             image: "assets/images/rolo.jpg",
             specs: {
-                power: "110 HP",
-                width: "2.1 m",
-                weight: "10 ton"
+        
+  
             },
             price: "R$ 600/dia"
         },
         {
             id: 4,
-            name: "Guindaste",
-            description: "Para içamento de cargas pesadas em obras e indústrias.",
+            name: "Martelete 3,5kg Dewalt",
+            description: "Escavações leves e demolições em obras de pequeno porte.",
             image: "assets/images/guindaste.jpg",
             specs: {
-                power: "150 HP",
-                capacity: "20 ton",
-                reach: "30 m"
+              
             },
             price: "R$ 1.500/dia"
         },
         {
             id: 5,
-            name: "Betoneira",
-            description: "Preparo de concreto em obras de pequeno e médio porte.",
+            name: "Martelete 10kg Dewalt",
+            description: "Escavações leves e demolições em obras de pequeno e médio porte.",
             image: "assets/images/betoneira.jpg",
             specs: {
-                power: "5 HP",
-                capacity: "400 L",
-                weight: "0.5 ton"
+           
             },
             price: "R$ 200/dia"
         },
         {
             id: 6,
-            name: "Escavadeira Hidráulica",
-            description: "Escavações profundas em diversos tipos de terreno.",
+            name: "Martelete 16 Kg Vonder",
+            description: " Escavações profundas e demolições em obras de grande porte.",
             image: "assets/images/escavadeira.jpg",
             specs: {
-                power: "125 HP",
-                capacity: "0.8 m³",
-                weight: "15 ton"
+        
             },
             price: "R$ 1.000/dia"
-        }
+        },
+         {
+            id: 7,
+            name: "Martelete 30 Kg Vonnder",
+            description: "Escavações profundas e demolições em obras de grande porte.",
+            image: "assets/images/escavadeira.jpg",
+            specs: {
+             
+            },
+            price: "R$ 1.000/dia"
+        },
+         {
+            id: 8,
+            name: "Sapatas",
+            description: "Estrutura de suporte para fundações de edifícios e estruturas.",
+            image: "assets/images/escavadeira.jpg",
+            specs: {
+         
+            },
+            price: "R$ 1.000/dia"
+        },
+         {
+            id: 9,
+            name: "Compactador de Solo",
+            description: "Compactação de solo para fundações e pavimentação.",
+            image: "assets/images/escavadeira.jpg",
+            specs: {
+            },
+            price: "R$ 1.000/dia"
+        },
+         {
+            id: 10,
+            name: "Gerador de 3KVA",
+            description: "Fornecimento de energia elétrica para canteiros de obras.",
+            image: "assets/images/escavadeira.jpg",
+            specs: {
+
+            },
+            price: "R$ 1.000/dia"
+        },
+         {
+            id: 11,
+            name: "Gerador de 7KVA",
+            description: "Fornecimento de energia elétrica para canteiros de obras.",
+            image: "assets/images/escavadeira.jpg",
+            specs: {
+             
+            },
+            price: "R$ 1.000/dia"
+        }, 
+         {
+            id: 12,
+            name: "Plataforma",
+            description: "Plataforma para elevação de materiais e pessoas em obras.",
+            image: "assets/images/escavadeira.jpg",
+            specs: {
+            
+            },
+            price: "R$ 1.000/dia"
+        },
+         {
+            id: 13,
+            name: "Placa Vibratoria",
+            description: "Compactação de solo para fundações e pavimentação.",
+            image: "assets/images/escavadeira.jpg",
+            specs: {
+  
+            },
+            price: "R$ 1.000/dia"
+        },
+         {
+            id: 14,
+            name: "Vibrador de Concreto",
+            description: "Compactação de concreto em fundações e estruturas.",
+            image: "assets/images/escavadeira.jpg",
+            specs: {
+     
+            },
+            price: "R$ 1.000/dia"
+        },
+         {
+            id: 15,
+            name: "Rodas para Andaimes",
+            description: "Rodas para movimentação de andaimes.",
+            image: "assets/images/escavadeira.jpg",
+            specs: {
+     
+            },
+            price: "R$ 1.000/dia"
+        },
+         {
+            id: 16,
+            name: "Guarda Copo",
+            description: " Suporte para proteção de áreas de trabalho.",
+            image: "assets/images/escavadeira.jpg",
+            specs: {
+           
+            },
+            price: "R$ 1.000/dia"
+        },
+         {
+            id: 17,
+            name: "Peneira Eletrica",
+            description: "Peneiramento de materiais para construção.",
+            image: "assets/images/escavadeira.jpg",
+            specs: {
+                
+            },
+            price: "R$ 1.000/dia"
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
     ];
 
     // Elementos do DOM
