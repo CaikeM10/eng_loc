@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 8,
             name: "Martelete 30 Kg Vonnder",
             description: "Escavações profundas e demolições em obras de grande porte.",
-            image: "",
+            image: "/imgs/Vonder 30kg.png",
             specs: { Mensal: "R$ 1.600/unit",
                      Quantidades: "01 unidades disponíveis",
             },
@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 9,
             name: "Sapatas",
             description: "Estrutura de suporte para fundações de edifícios e estruturas.",
-            image: "assets/images/escavadeira.jpg",
+            image: "/",
             specs: { Mensal:"A definir",
                      Quantidades: "08 unidades disponíveis",
          
