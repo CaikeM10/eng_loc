@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
         { id: 5,
             name: "Martelete 5kg Dewalt",
             description: "Escavações leves e demolições em obras de pequeno porte.",
-            image: "assets/images/guindaste.jpg",
+            image: "/imgs/Dewalt 5kg.png",
             specs: { Mensal: "R$1.000/unit",
                      Quantidades: "01 unidades disponíveis",
             },
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 6,
             name: "Martelete 10kg Dewalt",
             description: "Escavações leves e demolições em obras de pequeno e médio porte.",
-            image: "assets/images/betoneira.jpg",
+            image: "/img/",
             specs: { Mensal: "R$1.600/unit",
                     Quantidades: "01 unidades disponíveis",
                 
