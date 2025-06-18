@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 6,
             name: "Martelete 10kg Dewalt",
             description: "Escavações leves e demolições em obras de pequeno e médio porte.",
-            image: "/img/",
+            image: "/",
             specs: { Mensal: "R$1.600/unit",
                     Quantidades: "01 unidades disponíveis",
                 
