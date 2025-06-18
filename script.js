@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 7,
             name: "Martelete 16 Kg Vonder",
             description: " Escavações profundas e demolições em obras de grande porte.",
-            image: "/imgs/dewalt 16kg.png",
+            image: "",
             specs: { Mensal: "R$ 1.600/unit",
                      Quantidades: "03 unidades disponíveis",
         
@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 8,
             name: "Martelete 30 Kg Vonnder",
             description: "Escavações profundas e demolições em obras de grande porte.",
-            image: "assets/images/escavadeira.jpg",
+            image: "",
             specs: { Mensal: "R$ 1.600/unit",
                      Quantidades: "01 unidades disponíveis",
             },
