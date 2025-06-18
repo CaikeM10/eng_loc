@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Preparo de concreto em  sua obra de pequeno e médio porte.",
             image: "/imgs/betoneira.png",
             specs: { Mensal: "500/unit",
-                     Quantidades: "5 disponíveis",
+                     Quantidades: "5 unidades disponíveis",
   
             },
             price: "R$ 150/dia", 
@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 2,
             name: "Andaimes",
             description: "Estrutura de suporte para construção e manutenção de edifícios.",
-            image: "",
+            image: "/imgs/ANDAIME.png",
             specs: {
             
             },
