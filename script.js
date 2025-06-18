@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 7,
             name: "Martelete 16 Kg Vonder",
             description: " Escavações profundas e demolições em obras de grande porte.",
-            image: "/imgs/Dewalt-16kg-220v-dewalt-63c995a864657.png",
+            image: "/imgs/dewalt 16kg.png",
             specs: { Mensal: "R$ 1.600/unit",
                      Quantidades: "03 unidades disponíveis",
         
