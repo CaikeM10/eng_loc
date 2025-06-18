@@ -27,151 +27,174 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 3,
             name: "Escoras",
             description: " suporte temporário para estruturas durante a construção.",
-            image: "assets/images/rolo.jpg",
-            specs: {
-        
+            image: "/imgs/escoras.png",
+            specs: {Mensal: "R$0,50/unit",
+                    Quantidades: "140 unidades disponíveis",
   
             },
-            price: "R$ 600/dia"
+            price: "R$ 1,20/dia"
         },
         {
             id: 4,
             name: "Martelete 3,5kg Dewalt",
             description: "Escavações leves e demolições em obras de pequeno porte.",
             image: "assets/images/guindaste.jpg",
-            specs: {
-              
+            specs: { Mensal: "R$1.000/unit",
+                     Quantidades: "01 unidades disponíveis",
             },
-            price: "R$ 1.500/dia"
+            price: "R$ 100/dia"
         },
-        {
-            id: 5,
-            name: "Martelete 10kg Dewalt",
-            description: "Escavações leves e demolições em obras de pequeno e médio porte.",
-            image: "assets/images/betoneira.jpg",
-            specs: {
-           
+        { id: 5,
+            name: "Martelete 5kg Dewalt",
+            description: "Escavações leves e demolições em obras de pequeno porte.",
+            image: "assets/images/guindaste.jpg",
+            specs: { Mensal: "R$1.000/unit",
+                     Quantidades: "01 unidades disponíveis",
             },
-            price: "R$ 200/dia"
+            price: "R$ 100/dia"
+
         },
         {
             id: 6,
+            name: "Martelete 10kg Dewalt",
+            description: "Escavações leves e demolições em obras de pequeno e médio porte.",
+            image: "assets/images/betoneira.jpg",
+            specs: { Mensal: "R$1.600/unit",
+                    Quantidades: "01 unidades disponíveis",
+                
+            },
+            price: "R$150/dia"
+        },
+        
+        {
+            id: 7,
             name: "Martelete 16 Kg Vonder",
             description: " Escavações profundas e demolições em obras de grande porte.",
             image: "assets/images/escavadeira.jpg",
-            specs: {
+            specs: { Mensal: "R$ 1.600/unit",
+                     Quantidades: "03 unidades disponíveis",
         
             },
-            price: "R$ 1.000/dia"
-        },
-         {
-            id: 7,
-            name: "Martelete 30 Kg Vonnder",
-            description: "Escavações profundas e demolições em obras de grande porte.",
-            image: "assets/images/escavadeira.jpg",
-            specs: {
-             
-            },
-            price: "R$ 1.000/dia"
+            price: "R$ 150/dia"
         },
          {
             id: 8,
-            name: "Sapatas",
-            description: "Estrutura de suporte para fundações de edifícios e estruturas.",
+            name: "Martelete 30 Kg Vonnder",
+            description: "Escavações profundas e demolições em obras de grande porte.",
             image: "assets/images/escavadeira.jpg",
-            specs: {
-         
+            specs: { Mensal: "R$ 1.600/unit",
+                     Quantidades: "01 unidades disponíveis",
             },
             price: "R$ 1.000/dia"
         },
          {
             id: 9,
-            name: "Compactador de Solo",
-            description: "Compactação de solo para fundações e pavimentação.",
+            name: "Sapatas",
+            description: "Estrutura de suporte para fundações de edifícios e estruturas.",
             image: "assets/images/escavadeira.jpg",
-            specs: {
+            specs: { Mensal:"A definir",
+                     Quantidades: "08 unidades disponíveis",
+         
             },
-            price: "R$ 1.000/dia"
+            price:"R$0,80/dia"
         },
          {
             id: 10,
-            name: "Gerador de 3KVA",
-            description: "Fornecimento de energia elétrica para canteiros de obras.",
+            name: "Compactador de Solo",
+            description: "Compactação de solo para fundações e pavimentação.",
             image: "assets/images/escavadeira.jpg",
-            specs: {
-
+            specs: { Mensal: "R$ 3.500/unit",
+                     Quantidades: "02 unidades disponíveis",
             },
-            price: "R$ 1.000/dia"
+            price: "R$200/dia"
         },
          {
             id: 11,
+            name: "Gerador de 3KVA",
+            description: "Fornecimento de energia elétrica para canteiros de obras.",
+            image: "assets/images/escavadeira.jpg",
+            specs: { Mensal: "R$ 1.000/unit",
+                     Quantidades: "01 unidades disponíveis",    
+
+            },
+            price: "R$ 100/dia"
+        },
+         {
+            id: 12,
             name: "Gerador de 7KVA",
             description: "Fornecimento de energia elétrica para canteiros de obras.",
             image: "assets/images/escavadeira.jpg",
-            specs: {
+            specs: { Mensal:"R$ 2.000/unit",
+                     Quantidades:"01 unidades disponíveis",
              
             },
-            price: "R$ 1.000/dia"
+            price: "R$200/dia"
         }, 
          {
-            id: 12,
+            id: 13,
             name: "Plataforma",
             description: "Plataforma para elevação de materiais e pessoas em obras.",
             image: "assets/images/escavadeira.jpg",
-            specs: {
+            specs: {    Mensal:"R$2.000/unit" ,  
+                 Quantidades:"01 unidades disponiveis" ,
             
             },
-            price: "R$ 1.000/dia"
-        },
-         {
-            id: 13,
-            name: "Placa Vibratoria",
-            description: "Compactação de solo para fundações e pavimentação.",
-            image: "assets/images/escavadeira.jpg",
-            specs: {
-  
-            },
-            price: "R$ 1.000/dia"
+            price: "R$ 200/dia"
         },
          {
             id: 14,
-            name: "Vibrador de Concreto",
-            description: "Compactação de concreto em fundações e estruturas.",
+            name: "Placa Vibratoria",
+            description: "Compactação de solo para fundações e pavimentação.",
             image: "assets/images/escavadeira.jpg",
-            specs: {
-     
+            specs: { Mensal : "R$0,80/unit " , 
+                  Quantidades:"29 unidades disponiveis" ,
             },
-            price: "R$ 1.000/dia"
+            price: "R$ 1.50/dia"
         },
          {
             id: 15,
-            name: "Rodas para Andaimes",
-            description: "Rodas para movimentação de andaimes.",
+            name: "Vibrador de Concreto",
+            description: "Compactação de concreto em fundações e estruturas.",
             image: "assets/images/escavadeira.jpg",
-            specs: {
-     
+            specs: { Mensal : "R$1.600/unit" , 
+                Quantidades:"29 unidades disponiveis" ,
             },
-            price: "R$ 1.000/dia"
+            price: "R$ 150/dia"
         },
          {
             id: 16,
-            name: "Guarda Copo",
-            description: " Suporte para proteção de áreas de trabalho.",
+            name: "Rodas para Andaimes",
+            description: "Rodas para movimentação de andaimes.",
             image: "assets/images/escavadeira.jpg",
-            specs: {
-           
+            specs: { 
+                    Mensal:"R$250/unit", 
+                    Quantidade:"02 unidades disponíveis" ,
+      
             },
-            price: "R$ 1.000/dia"
+            price: "R$1,00/dia"
         },
          {
             id: 17,
+            name: "Guarda Copo",
+            description: " Suporte para proteção de áreas de trabalho.",
+            image: "assets/images/escavadeira.jpg",
+            specs: {Mensal:"R$30/unit" , 
+                Quantidade:"12 unidades disponíveis" ,
+                
+           
+            },
+            price: "R$ 1.00/dia"
+        },
+         {
+            id: 18,
             name: "Peneira Eletrica",
             description: "Peneiramento de materiais para construção.",
             image: "assets/images/escavadeira.jpg",
-            specs: {
+            specs: { Mensal : "R$450/unit" , 
+                Quantidaade:"02 unidades disponiveis"
                 
             },
-            price: "R$ 1.000/dia"
+            price: "R$ 150/dia"
         },
 
         
@@ -185,30 +208,31 @@ document.addEventListener('DOMContentLoaded', function() {
     const contactForm = document.getElementById('contactForm');
     const header = document.querySelector('header');
 
-    // Carregar máquinas
-    function loadMachines() {
-        machineContainer.innerHTML = machines.map(machine => `
-            <div class="machine-card">
-                <div class="machine-img">
-                    <img src="${machine.image}" alt="${machine.name}">
-                </div>
-                <div class="machine-info">
-                    <h3>${machine.name}</h3>
-                    <p>${machine.description}</p>
-                    <div class="machine-specs">
-                        ${Object.entries(machine.specs).map(([key, value]) => `
-                            <span><i class="fas fa-check-circle"></i> ${key}: ${value}</span>
-                        `).join('')}
-                    </div>
-                    <span class="machine-price">${machine.price}</span>
-                    <a href="https://wa.me/5511987654321?text=Olá,%20gostaria%20de%20alugar%20a%20máquina%20${encodeURIComponent(machine.name)}%20por%20${encodeURIComponent(machine.price)}" 
-                       class="btn whatsapp-btn">
-                        <i class="fab fa-whatsapp"></i> Alugar agora
-                    </a>
-                </div>
+
+    // Botão do whatssapp que faz a chamada ao selecionar a máquina juntamente com o preço e a mensagem formulada
+   function loadMachines() {
+    machineContainer.innerHTML = machines.map(machine => `
+        <div class="machine-card">
+            <div class="machine-img">
+                <img src="${machine.image}" alt="${machine.name}">
             </div>
-        `).join('');
-    }
+            <div class="machine-info">
+                <h3>${machine.name}</h3>
+                <p>${machine.description}</p>
+                <div class="machine-specs">
+                    ${Object.entries(machine.specs).map(([key, value]) => `
+                        <span><i class="fas fa-check-circle"></i> ${key}: ${value}</span>
+                    `).join('')}
+                </div>
+                <span class="machine-price">${machine.price}</span>
+                <a href="https://wa.me/5588998183147?text=Olá,%20gostaria%20de%20alugar%20a%20máquina%20${encodeURIComponent(machine.name)}%20por%20${encodeURIComponent(machine.price)}" 
+                   class="btn whatsapp-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Alugar agora
+                </a>
+            </div>
+        </div>
+    `).join('');
+}
 
     // Menu mobile
     mobileMenuBtn.addEventListener('click', function() {
