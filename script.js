@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 7,
             name: "Martelete 16 Kg Vonder",
             description: " Escavações profundas e demolições em obras de grande porte.",
-            image: "",
+            image: "/imgs/nwvondder 16kg.png",
             specs: { Mensal: "R$ 1.600/unit",
                      Quantidades: "03 unidades disponíveis",
         
