@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 1,
             name: "Betoneira",
             description: "Preparo de concreto em  sua obra de pequeno e médio porte.",
-            image: "/imgs/",
+            image: "/imgs",
             specs: {
   
             },
@@ -171,24 +171,6 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             price: "R$ 1.000/dia"
         },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
         
         
