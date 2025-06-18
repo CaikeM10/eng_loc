@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 4,
             name: "Martelete 3,5kg Dewalt",
             description: "Escavações leves e demolições em obras de pequeno porte.",
-            image: "",
+            image: "/imgs/Dewalt 3,5kg.png",
             specs: { Mensal: "R$1.000/unit",
                      Quantidades: "01 unidades disponíveis",
             },
