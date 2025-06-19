@@ -165,7 +165,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 16,
             name: "Rodas para Andaimes",
             description: "Rodas para movimentação de andaimes.",
-            image: "assets/images/escavadeira.jpg",
+            image: "/imgs/rodas para andaimes.png",
             specs: { 
                     Mensal:"R$250/unit", 
                     Quantidade:"02 unidades disponíveis" ,
@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
          {
             id: 17,
-            name: "Guarda Copo",
+            name: "Guarda Corpo",
             description: " Suporte para proteção de áreas de trabalho.",
             image: "assets/images/escavadeira.jpg",
             specs: {Mensal:"R$30/unit" , 
