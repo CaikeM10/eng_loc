@@ -155,7 +155,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 15,
             name: "Vibrador de Concreto",
             description: "Compactação de concreto em fundações e estruturas.",
-            image: "assets/images/escavadeira.jpg",
+            image: "/imgs/concreto.png",
             specs: { Mensal : "R$1.600/unit" , 
                 Quantidades:"29 unidades disponiveis" ,
             },
