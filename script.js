@@ -145,7 +145,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 14,
             name: "Placa Vibratoria",
             description: "Compactação de solo para fundações e pavimentação.",
-            image: "assets/images/escavadeira.jpg",
+            image: "/imgs/placa vibratoria.png",
             specs: { Mensal : "R$0,80/unit " , 
                   Quantidades:"29 unidades disponiveis" ,
             },
