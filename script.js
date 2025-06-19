@@ -177,7 +177,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 17,
             name: "Guarda Corpo",
             description: " Suporte para proteção de áreas de trabalho.",
-            image: "assets/images/escavadeira.jpg",
+            image: "/imgs/guardacorpo_1.png",
             specs: {Mensal:"R$30/unit" , 
                 Quantidade:"12 unidades disponíveis" ,
                 
