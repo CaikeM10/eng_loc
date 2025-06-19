@@ -189,7 +189,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 18,
             name: "Peneira Eletrica",
             description: "Peneiramento de materiais para construção.",
-            image: "assets/images/escavadeira.jpg",
+            image: "/imgs/peneira eletrica.png",
             specs: { Mensal : "R$450/unit" , 
                 Quantidaade:"02 unidades disponiveis"
                 
