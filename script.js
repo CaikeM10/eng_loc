@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 12,
             name: "Gerador de 7KVA",
             description: "Fornecimento de energia elétrica para canteiros de obras.",
-            image: "assets/images/escavadeira.jpg",
+            image: "/imgs/7kva.png",
             specs: { Mensal:"R$ 2.000/unit",
                      Quantidades:"01 unidades disponíveis",
              
