@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 9,
             name: "Sapatas",
             description: "Estrutura de suporte para fundações de edifícios e estruturas.",
-            image: "/",
+            image: "/imgs/sapatas.png",
             specs: { Mensal:"A definir",
                      Quantidades: "08 unidades disponíveis",
          
@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 10,
             name: "Compactador de Solo",
             description: "Compactação de solo para fundações e pavimentação.",
-            image: "assets/images/escavadeira.jpg",
+            image: "",
             specs: { Mensal: "R$ 3.500/unit",
                      Quantidades: "02 unidades disponíveis",
             },
