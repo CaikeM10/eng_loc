@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 13,
             name: "Plataforma",
             description: "Plataforma para elevação de materiais e pessoas em obras.",
-            image: "assets/images/escavadeira.jpg",
+            image: "/imgs/empilhadeira.png",
             specs: {    Mensal:"R$2.000/unit" ,  
                  Quantidades:"01 unidades disponiveis" ,
             
