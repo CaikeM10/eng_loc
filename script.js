@@ -102,7 +102,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 10,
             name: "Compactador de Solo",
             description: "Compactação de solo para fundações e pavimentação.",
-            image: "",
+            image: "/imgs/compactador-loccom-min.png",
             specs: { Mensal: "R$ 3.500/unit",
                      Quantidades: "02 unidades disponíveis",
             },
