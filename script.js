@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 11,
             name: "Gerador de 3KVA",
             description: "Fornecimento de energia elétrica para canteiros de obras.",
-            image: "assets/images/escavadeira.jpg",
+            image: "/imgs/Gerador 3,5 Kva-min.png",
             specs: { Mensal: "R$ 1.000/unit",
                      Quantidades: "01 unidades disponíveis",    
 
