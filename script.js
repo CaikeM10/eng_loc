@@ -79,9 +79,9 @@ document.addEventListener('DOMContentLoaded', function() {
         },
          {
             id: 8,
-            name: "Martelete 30 Kg Vonnder",
+            name: "Martelete 30 Kg Dewalt",
             description: "Escavações profundas e demolições em obras de grande porte.",
-            image: "/imgs/Vonder 30kg.png",
+            image: "/imgs/dewalt 30kgg.png",
             specs: { Mensal: "R$ 1.600/unit",
                      Quantidades: "01 unidades disponíveis",
             },
@@ -197,6 +197,17 @@ document.addEventListener('DOMContentLoaded', function() {
             price: "R$ 150/dia"
         },
 
+          {
+            id: 19,
+            name: "Motor bomba",
+            description: "Bombeamento de água para canteiros de obras.",
+            image: "/imgs/motor bomba.png",
+            specs: { Mensal : "R$450/unit" , 
+                Quantidaade:"02 unidades disponiveis"
+                
+            },
+            price: "R$ 150/dia"
+        },
         
         
     ];
