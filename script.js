@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 2,
             name: "Andaimes",
             description: "Estrutura de suporte para construção e manutenção de edifícios.",
-            image: "/imgs/ANDAIME.png",
+            image: "",
             specs: { Mensal: "R$0,80/unit",
                     Quantidades: "152 unidades disponíveis",
             
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 3,
-            name: "Escoras",
+            name: "Escoras de 3,20 M e 4,60 M",
             description: " suporte temporário para estruturas durante a construção.",
             image: "/imgs/escoras.png",
             specs: {Mensal: "R$0,50/unit",
@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
             id: 13,
             name: "Plataforma",
             description: "Plataforma para elevação de materiais e pessoas em obras.",
-            image: "",
+            image: "/imgs/plataforma andaime.png",
             specs: {    Mensal:"R$2.000/unit" ,  
                  Quantidades:"01 unidades disponiveis" ,
             
