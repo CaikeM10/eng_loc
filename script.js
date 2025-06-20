@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 2,
-            name: "Andaimes",
+            name: "Andaimes de 1x1,0m e 1x1,5m",
             description: "Estrutura de suporte para construção e manutenção de edifícios.",
-            image: "",
+            image: "/imgs/andaimes 11m.png",
             specs: { Mensal: "R$0,80/unit",
                     Quantidades: "152 unidades disponíveis",
             
@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         {
             id: 3,
-            name: "Escoras de 3,20 M e 4,60 M",
+            name: "Escoras de 3,20 m e 4,60 m",
             description: " suporte temporário para estruturas durante a construção.",
             image: "/imgs/escoras.png",
             specs: {Mensal: "R$0,50/unit",
