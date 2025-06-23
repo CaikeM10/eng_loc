@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function() {
+ocument.addEventListener('DOMContentLoaded', function() {
     // Máquinas disponíveis para aluguel (pode ser substituído por dados de uma API)
     const machines = [
         {
@@ -191,7 +191,7 @@ document.addEventListener('DOMContentLoaded', function() {
             description: "Peneiramento de materiais para construção.",
             image: "/imgs/peneira eletrica.png",
             specs: { Mensal : "R$450/unit" , 
-                Quantidaade:"02 unidades disponiveis"
+                Quantidade:"02 unidades disponiveis"
                 
             },
             price: "R$ 150/dia"
@@ -202,11 +202,11 @@ document.addEventListener('DOMContentLoaded', function() {
             name: "Motor bomba",
             description: "Bombeamento de água para canteiros de obras.",
             image: "/imgs/motor bomba.png",
-            specs: { Mensal : "R$450/unit" , 
-                Quantidaade:"02 unidades disponiveis"
+            specs: { Mensal : "R$600/unit" , 
+                Quantidade:"01 unidades disponiveis"
                 
             },
-            price: "R$ 150/dia"
+            price: "R$ 100/dia"
         },
         
         
@@ -218,7 +218,17 @@ document.addEventListener('DOMContentLoaded', function() {
     const navMenu = document.querySelector('nav ul');
     const contactForm = document.getElementById('contactForm');
     const header = document.querySelector('header');
+    const navLinks = document.querySelectorAll('nav ul li a');
+    const phoneLink = document.querySelector('.phone-link span');
 
+    // Número de telefone formatado
+    const phoneNumber = '+5588999999999';
+    const formattedPhoneNumber = '(88) 99999-9999';
+
+    // Atualizar número de telefone
+    if (phoneLink) {
+        phoneLink.textContent = formattedPhoneNumber;
+    }
 
     // Botão do whatssapp que faz a chamada ao selecionar a máquina juntamente com o preço e a mensagem formulada
    function loadMachines() {
@@ -243,11 +253,24 @@ document.addEventListener('DOMContentLoaded', function() {
             </div>
         </div>
     `).join('');
-}
+    }
 
     // Menu mobile
     mobileMenuBtn.addEventListener('click', function() {
+        this.classList.toggle('active');
         navMenu.classList.toggle('show');
+        document.body.classList.toggle('no-scroll');
+    });
+
+    // Fechar menu ao clicar em um link
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            if (navMenu.classList.contains('show')) {
+                mobileMenuBtn.classList.remove('active');
+                navMenu.classList.remove('show');
+                document.body.classList.remove('no-scroll');
+            }
+        });
     });
 
     // Scroll suave para links
@@ -276,29 +299,59 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Efeito de scroll no header
     window.addEventListener('scroll', function() {
-        if(window.scrollY > 100) {
+        if(window.scrollY > 50) {
             header.classList.add('scrolled');
         } else {
             header.classList.remove('scrolled');
         }
     });
 
+    // Animação dos elementos ao carregar
+    const animateOnScroll = function() {
+        const elements = document.querySelectorAll('.hero-content, .hero-image');
+        
+        elements.forEach(element => {
+            const elementPosition = element.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+            
+            if (elementPosition < windowHeight - 100) {
+                element.classList.add('animated');
+            }
+        });
+    };
+
+    // Verificar animações ao carregar e ao scrollar
+    window.addEventListener('load', animateOnScroll);
+    window.addEventListener('scroll', animateOnScroll);
+    
+    // Atualizar ano no footer (se houver)
+    const yearElement = document.querySelector('#current-year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    }
+
     // Inicializar mapa
     function initMap() {
-        // Coordenadas do local (exemplo: São Paulo)
-        const location = { lat: -23.5505, lng: -46.6333 };
+        // Coordenadas EXATAS da R. Francisco de Assis Santana de Sousa, 225 (Tauá-CE)
+        const location = { lat: -6.0025, lng: -40.2943 }; // Lat/Lng verificados no Google Maps
         
-        const map = L.map('map').setView(location, 15);
+        // Inicializa o mapa com zoom mais próximo (15 é ideal para ruas)
+        const map = L.map('map').setView([location.lat, location.lng], 15);
         
+        // Camada do OpenStreetMap
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
         
-        L.marker(location).addTo(map)
-            .bindPopup('EngSolutions<br>Rua das Construções, 123')
+        // Marcador personalizado (com ícone padrão do Leaflet)
+        L.marker([location.lat, location.lng]).addTo(map)
+            .bindPopup(`
+                <b>ChagasLoc</b><br>
+                R. Francisco de Assis Santana de Sousa, 225<br>
+                Tauá-CE, 63660-000
+            `)
             .openPopup();
     }
-
     // Envio do formulário de contato
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();

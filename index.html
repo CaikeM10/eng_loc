@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -7,41 +7,71 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Oswald:wght@500;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="container">
-            <div class="logo">
-                <h1>Eng<span>Solutions</span></h1>
-                <p>Aluguel de Equipamentos</p>
+        <div class="header-container">
+        <div class="logo">
+            <div class="logo-img animated-logo">
+            <img src="imgs/logo/logo.jpg" alt="Logo EngSolutions" />
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#machines">Máquinas</a></li>
-                    <li><a href="#contact">Contato</a></li>
-                </ul>
-                <div class="mobile-menu">
-                    <i class="fas fa-bars"></i>
+            <div class="logo-title animated-title">
+            <h1>
+                <span class="chagas">CHAGAS</span><span class="loc">LOC</span>
+            </h1>
+            <p>Locação de Equipamentos</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li class="animated-link delay-1"><a href="#home">Início</a></li>
+                <li class="animated-link delay-2"><a href="#about">Sobre Nós</a></li>
+                <li class="animated-link delay-3"><a href="#machines">Máquinas</a></li>
+                <li class="animated-link delay-4"><a href="#services">Serviços</a></li>
+                <li class="animated-link delay-5"><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="header-cta">
+                <a href="tel:+5588999999999" class="phone-link">
+                <i class="fas fa-phone-alt"></i>
+                <span>(88) 99999-9999</span>
+                </a>
+            </div>
+            <div class="mobile-menu">
+                <div class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
                 </div>
+            </div>
             </nav>
         </div>
     </header>
 
     <section id="home" class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h2>Soluções em Engenharia e Aluguel de Máquinas</h2>
-                <p>Equipamentos de qualidade para sua obra com o melhor custo-benefício do mercado</p>
-                <a href="#machines" class="btn">Ver Máquinas Disponíveis</a>
-            </div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-container">
+        <div class="hero-content">
+          <h1>Soluções em Equipamentos <span>para Construção Civil</span></h1>
+          <p class="hero-subtitle">Máquinas modernas, manutenção garantida e suporte técnico especializado para sua obra em Tauá e região</p>
+          <div class="hero-buttons">
+            <a href="#machines" class="btn cta-btn">Ver Catálogo</a>
+            <a href="https://wa.me/5588999999999" class="btn whatsapp-btn">
+              <i class="fab fa-whatsapp"></i> Fale Conosco
+            </a>
+          </div>
         </div>
+      </div>
+      <div class="scroll-indicator">
+        <span></span>
+      </div>
     </section>
 
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title"> CEO | CHAGASLOC  </h2>
+            <h2 class="section-title"> FUNDADOR | CHAGASLOC   </h2>
             <div class="about-content">
                 <div class="about-img">
                     <img src="/imgs/engenheiro.jpg" alt="Engenheiro">
@@ -52,19 +82,18 @@
 </h3>
                     <p>Engenheiro Civil formado pela Universidade Federal do Ceará (UFC), Francisco das Chagas possui experiência sólida em obras públicas, perícias e avaliações técnicas. Em 2024, fundou a Chagasloc com o objetivo de oferecer soluções práticas, seguras e acessíveis para o setor da construção civil em Tauá e região.
 </p>
-                    <p>Unindo formação de excelência, vivência de campo e visão empreendedora, Francisco lidera a Chagasloc com foco em qualidade, agilidade e compromisso com o cliente.</p>
+                    <p>Unindo formação de excelência, vivência de campo e visão empreendedora, Francisco lidera a Chagasloc com foco em qualidade, agilidade e compromisso com o cliente.</p>
                     <div class="qualifications">
                         <div class="qualification-item">
-                            <i class="fas fa-award"></i>
-                            <span>CREA: 123.456-7</span>
+                            
+                        
                         </div>
                         <div class="qualification-item">
-                            <i class="fas fa-calendar-check"></i>
-                            <span>5+ anos de experiência</span>
+                    
+                            
                         </div>
                         <div class="qualification-item">
-                            <i class="fas fa-hard-hat"></i>
-                            <span>50+ obras concluídas</span>
+                          
                         </div>
                     </div>
                 </div>
@@ -87,13 +116,13 @@
         <div class="container">
             <h2 class="section-title">Nossa Localização</h2>
             <div class="map-container">
-                <div id="map"></div>
+                 <div id="map"></div>
                 <div class="location-info">
                     <h3>Onde nos encontrar</h3>
-                    <p><i class="fas fa-map-marker-alt"></i> Rua das Construções, 123 - Centro, São Paulo/SP</p>
-                    <p><i class="fas fa-clock"></i> Seg-Sex: 8h às 18h | Sáb: 8h às 12h</p>
-                    <p><i class="fas fa-phone"></i> (11) 98765-4321</p>
-                    <a href="https://wa.me/5511987654321?text=Olá,%20gostaria%20de%20informações%20sobre%20aluguel%20de%20máquinas" class="btn whatsapp-btn">
+                    <p><i class="fas fa-map-marker-alt"></i> R. Francisco de Assis Santana de Sousa, 225 - Francisco Soares de Carvalho, Tauá - CE, 63660-000</p>
+                    <p><i class="fas fa-clock"></i> Seg-Sex: 7h às 17h | Sáb: 7h às 13h</p>
+                    <p><i class="fas fa-phone"></i> (88)99818-3147</p>
+                    <a href="https://wa.me/5588998183147?text=Ol%C3%A1%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es..." class="btn whatsapp-btn">
                         <i class="fab fa-whatsapp"></i> Fale conosco no WhatsApp
                     </a>
                 </div>
@@ -135,28 +164,28 @@
                         <i class="fas fa-phone"></i>
                         <div>
                             <h4>Telefone</h4>
-                            <p>(11) 98765-4321</p>
+                            <p>(88) 99818-3147</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h4>E-mail</h4>
-                            <p>contato@engsolutions.com.br</p>
+                            <p>chagasloc@gmail.com</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <h4>Endereço</h4>
-                            <p>Rua das Construções, 123 - Centro, São Paulo/SP</p>
+                            <p>R. Francisco de Assis Santana de Sousa, 225 - Francisco Soares de Carvalho, Tauá - CE, 63660-000</p>
                         </div>
                     </div>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.instagram.com/chagasloc/?g=5"><i class="fab fa-instagram"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="https://wa.me/5511987654321?text=Olá,%20gostaria%20de%20informações%20sobre%20aluguel%20de%20máquinas"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://wa.me/5588998183147?text=Ol%C3%A1%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es..."><i class="fab fa-whatsapp"></i></a>
                     </div>
                 </div>
             </div>
@@ -167,7 +196,7 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-col">
-                    <h3>EngSolutions</h3>
+                    <h3>CHAGASLOC</h3>
                     <p>Soluções profissionais em engenharia e aluguel de máquinas pesadas para sua obra.</p>
                 </div>
                 <div class="footer-col">
@@ -181,13 +210,13 @@
                 </div>
                 <div class="footer-col">
                     <h3>Contato</h3>
-                    <p><i class="fas fa-phone"></i> (11) 98765-4321</p>
-                    <p><i class="fas fa-envelope"></i> contato@engsolutions.com.br</p>
+                    <p><i class="fas fa-phone"></i> (88) 99818-3147     </p>
+                    <p><i class="fas fa-envelope"></i> chagasloc@gmail.com</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2023 EngSolutions. Todos os direitos reservados.</p>
-                <p>Desenvolvido com <i class="fas fa-heart"></i> por profissionais</p>
+                <p>&copy; 2025 CHAGASLOC. Todos os direitos reservados.</p>
+                <p>Desenvolvido por CodeCrat - Soluções em Desenvolvimento De Software</p>
             </div>
         </div>
     </footer>
