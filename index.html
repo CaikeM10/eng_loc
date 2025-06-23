@@ -39,7 +39,7 @@
                 <li class="animated-link delay-5"><a href="#contact">Contato</a></li>
             </ul>
             <div class="header-cta">
-                <a href="tel:+5588999999999" class="phone-link">
+                <a href="https://wa.me/5588998183147" class="phone-link">
                 <i class="fas fa-phone-alt"></i>
                 <span>(88) 99999-9999</span>
                 </a>
@@ -60,7 +60,7 @@
       <div class="container hero-container">
         <div class="hero-content">
           <h1>Soluções em Equipamentos <span>para Construção Civil</span></h1>
-          <p class="hero-subtitle">Máquinas modernas, manutenção garantida e suporte técnico especializado para sua obra em Tauá e região</p>
+          <p class="hero-subtitle">Máquinas modernas, manutenção garantida e suporte técnico especializado para sua obra em Tauá e toda região. </p>
           <div class="hero-buttons">
             <a href="#machines" class="btn cta-btn">Ver Máquinas</a>
             <a href="https://wa.me/5588999999999" class="btn whatsapp-btn">
@@ -126,7 +126,7 @@
                     <h3>Onde nos encontrar</h3>
                     <p><i class="fas fa-map-marker-alt"></i> R. Francisco de Assis Santana de Sousa, 225 - Francisco Soares de Carvalho, Tauá - CE, 63660-000</p>
                     <p><i class="fas fa-clock"></i> Seg-Sex: 7h às 17h | Sáb: 7h às 13h</p>
-                    <p><i class="fas fa-phone"></i> (88)99818-3147</p>
+                    <p><i class="fas fa-phone"></i> (88) 99818-3147</p>
                     <a href="https://wa.me/5588998183147?text=Ol%C3%A1%20gostaria%20de%20saber%20mais%20informa%C3%A7%C3%B5es..." class="btn whatsapp-btn">
                         <i class="fab fa-whatsapp"></i> Fale conosco no WhatsApp
                     </a>
@@ -135,34 +135,37 @@
         </div>
     </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2 class="section-title">Entre em Contato</h2>
-            <div class="contact-container">
-                <form id="contactForm" class="contact-form">
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" id="phone" name="phone" placeholder="Seu telefone">
-                    </div>
-                    <div class="form-group">
-                        <select id="subject" name="subject" required>
-                            <option value="" disabled selected>Assunto</option>
-                            <option value="aluguel">Aluguel de Máquinas</option>
-                            <option value="orcamento">Orçamento de Engenharia</option>
-                            <option value="duvida">Dúvida</option>
-                            <option value="outro">Outro</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
-                    </div>
-                    <button type="submit" class="btn">Enviar Mensagem</button>
-                </form>
+   <section id="contact" class="contact">
+    <div class="container">
+        <h2 class="section-title">Entre em Contato</h2>
+        <div class="contact-container">
+            <form id="contactForm" class="contact-form" action="processar_contato.php" method="post">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Seu telefone">
+                </div>
+                <div class="form-group">
+                    <select id="subject" name="subject" required>
+                        <option value="" disabled selected>Assunto</option>
+                        <option value="aluguel">Aluguel de Máquinas</option>
+                        <option value="orcamento">Orçamento de Engenharia</option>
+                        <option value="duvida">Dúvida</option>
+                        <option value="outro">Outro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+        </div>
+    </div>
+</section>
                 <div class="contact-info">
                     <h3>Outros meios de contato</h3>
                     <div class="contact-item">
