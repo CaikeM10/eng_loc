@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/betoneira.png",
         specs: {
             Mensal: "R$500/unit",
-            Quantidades: "5 unidades disponíveis",
+       
         },
         price: "R$ 150/dia",
     }, {
@@ -22,10 +22,10 @@ document.addEventListener('DOMContentLoaded', function() {
         description: "Estrutura de suporte para construção e manutenção de edifícios.",
         image: "/imgs/andaimes 11m.png",
         specs: {
-            Mensal: "R$24,00/unit",
-            Quantidades: "152 unidades disponíveis",
+            Mensal: "R$0,80/unit",
+         
         },
-        price: "R$ 1,30/dia"
+        price: "R$ 1,50/dia"
     },
      {
         id: 3,
@@ -34,9 +34,9 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/andaimes 1x5.png",
         specs: {
             Mensal: "R$24,00/unit",
-            Quantidades: "152 unidades disponíveis",
+        
         },
-        price: "R$ 1,30/dia"
+        price: "R$ 1,50/dia"
     },
     
     {
@@ -45,8 +45,8 @@ document.addEventListener('DOMContentLoaded', function() {
         description: " suporte temporário para estruturas durante a construção.",
         image: "/imgs/escoras.png",
         specs: {
-            Mensal: "R$0,50/unit",
-            Quantidades: "140 unidades disponíveis",
+            Mensal: "R$0,80/unit",
+       
         },
         price: "R$ 0,80/dia"
     },   
@@ -56,8 +56,8 @@ document.addEventListener('DOMContentLoaded', function() {
         description: " suporte temporário para estruturas durante a construção.",
         image: "/imgs/escoras.png",
         specs: {
-            Mensal: "R$0,50/unit",
-            Quantidades: "140 unidades disponíveis",
+            Mensal: "R$1,50/unit",
+      
         },
         price: "R$ 1,50/dia"
     }, 
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/Dewalt 3,5kg.png",
         specs: {
             Mensal: "R$1.000/unit",
-            Quantidades: "01 unidades disponíveis",
+      
         },
         price: "R$ 100/dia"
     }, {
@@ -79,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/Dewalt 5kg.png",
         specs: {
             Mensal: "R$2.000/unit",
-            Quantidades: "01 unidades disponíveis",
+         
         },
         price: "R$ 150/dia"
 
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/Dewalt 10kg.png",
         specs: {
             Mensal: "R$2.000/unit",
-            Quantidades: "01 unidades disponíveis",
+          
         },
         price: "R$150/dia"
     }, {
@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/nwvondder 16kg.png",
         specs: {
             Mensal: "R$ 2.000/unit",
-            Quantidades: "03 unidades disponíveis",
+         
         },
         price: "R$ 150/dia"
     }, {
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/dewalt 30kgg.png",
         specs: {
             Mensal: "R$ 3.000/unit",
-            Quantidades: "01 unidades disponíveis",
+        
         },
         price: "R$ 200/dia"
     }, {
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/sapatass.png",
         specs: {
             Mensal: "A definir",
-            Quantidades: "08 unidades disponíveis",
+        
         },
         price: "R$0,80/dia"
     }, {
@@ -130,7 +130,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/compactador-loccom-min.png",
         specs: {
             Mensal: "R$ 3.500/unit",
-            Quantidades: "02 unidades disponíveis",
+           
         },
         price: "R$200/dia"
     }, {
@@ -140,7 +140,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/Gerador 3,5 Kva-min.png",
         specs: {
             Mensal: "R$ 1.000/unit",
-            Quantidades: "01 unidades disponíveis",
+      
         },
         price: "R$ 100/dia"
     }, {
@@ -150,7 +150,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/7kva.png",
         specs: {
             Mensal: "R$ 2.000/unit",
-            Quantidades: "01 unidades disponíveis",
+        
         },
         price: "R$200/dia"
     }, {
@@ -160,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/plataforma andaime.png",
         specs: {
             Mensal: "R$2.000/unit",
-            Quantidades: "01 unidades disponiveis",
+         
         },
         price: "R$ 1,00/dia"
     }, {
@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/placa vibratoria.png",
         specs: {
             Mensal: "R$900/unit ",
-            Quantidades: " 01 unidades disponiveis",
+           
         },
         price: "R$ 150/dia"
     }, {
@@ -180,9 +180,9 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/concreto.png",
         specs: {
             Mensal: "R$350,00/unit",
-            Quantidades: "02 unidades disponiveis",
+        
         },
-        price: "R$ 150/dia"
+        price: "R$ 100/dia"
     }, {
         id: 17,
         name: "Rodas para Andaimes",
@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/rodas para andaimes.png",
         specs: {
             Mensal: "R$250/unit",
-            Quantidade: "02 unidades disponíveis",
+    
         },
         price: "R$1,00/dia"
     }, {
@@ -200,9 +200,8 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/guardacorpo_1.png",
         specs: {
             Mensal: "R$30/unit",
-            Quantidade: "12 unidades disponíveis",
         },
-        price: "R$ 1.00/dia"
+        price: "R$ 1,00/dia"
     }, {
         id: 19,
         name: "Peneira Eletrica",
@@ -210,7 +209,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/peneira eletrica.png",
         specs: {
             Mensal: "R$450/unit",
-            Quantidade: "02 unidades disponiveis"
+    
         },
         price: "R$ 150/dia"
     }, {
@@ -220,7 +219,7 @@ document.addEventListener('DOMContentLoaded', function() {
         image: "/imgs/motor bomba.png",
         specs: {
             Mensal: "R$600/unit",
-            Quantidade: "01 unidades disponiveis"
+     
         },
         price: "R$ 100/dia"
     }, ];
