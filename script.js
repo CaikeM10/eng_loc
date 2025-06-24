@@ -18,26 +18,52 @@ document.addEventListener('DOMContentLoaded', function() {
         price: "R$ 150/dia",
     }, {
         id: 2,
-        name: "Andaimes de 1x1,0m e 1x1,5m",
+        name: "Andaimes de 1,0m",
         description: "Estrutura de suporte para construção e manutenção de edifícios.",
         image: "/imgs/andaimes 11m.png",
         specs: {
-            Mensal: "R$0,80/unit",
+            Mensal: "R$24,00/unit",
             Quantidades: "152 unidades disponíveis",
         },
         price: "R$ 1,30/dia"
-    }, {
+    },
+     {
         id: 3,
-        name: "Escoras de 3,20 m e 4,60 m",
+        name: "Andaimes de 1,5m",
+        description: "Estrutura de suporte para construção e manutenção de edifícios.",
+        image: "/imgs/andaimes 1x5.png",
+        specs: {
+            Mensal: "R$24,00/unit",
+            Quantidades: "152 unidades disponíveis",
+        },
+        price: "R$ 1,30/dia"
+    },
+    
+    {
+        id: 4,
+        name: "Escoras de 3,20 m",
         description: " suporte temporário para estruturas durante a construção.",
         image: "/imgs/escoras.png",
         specs: {
             Mensal: "R$0,50/unit",
             Quantidades: "140 unidades disponíveis",
         },
-        price: "R$ 1,20/dia"
-    }, {
-        id: 4,
+        price: "R$ 0,80/dia"
+    },   
+    {
+        id: 5,
+        name: "Escoras de 4,60 m",
+        description: " suporte temporário para estruturas durante a construção.",
+        image: "/imgs/escoras.png",
+        specs: {
+            Mensal: "R$0,50/unit",
+            Quantidades: "140 unidades disponíveis",
+        },
+        price: "R$ 1,50/dia"
+    }, 
+    
+        {
+        id: 6,
         name: "Martelete 3,5kg Dewalt",
         description: "Escavações leves e demolições em obras de pequeno porte.",
         image: "/imgs/Dewalt 3,5kg.png",
@@ -47,58 +73,58 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         price: "R$ 100/dia"
     }, {
-        id: 5,
-        name: "Martelete 5kg Dewalt",
+        id: 7,
+        name: "Martelete 7kg Dewalt",
         description: "Escavações leves e demolições em obras de pequeno porte.",
         image: "/imgs/Dewalt 5kg.png",
         specs: {
-            Mensal: "R$1.000/unit",
+            Mensal: "R$2.000/unit",
             Quantidades: "01 unidades disponíveis",
         },
-        price: "R$ 100/dia"
+        price: "R$ 150/dia"
 
     }, {
-        id: 6,
+        id: 8,
         name: "Martelete 10kg Dewalt",
         description: "Escavações leves e demolições em obras de pequeno e médio porte.",
         image: "/imgs/Dewalt 10kg.png",
         specs: {
-            Mensal: "R$1.600/unit",
+            Mensal: "R$2.000/unit",
             Quantidades: "01 unidades disponíveis",
         },
         price: "R$150/dia"
     }, {
-        id: 7,
+        id: 9,
         name: "Martelete 16 Kg Vonder",
         description: " Escavações profundas e demolições em obras de grande porte.",
         image: "/imgs/nwvondder 16kg.png",
         specs: {
-            Mensal: "R$ 1.600/unit",
+            Mensal: "R$ 2.000/unit",
             Quantidades: "03 unidades disponíveis",
         },
         price: "R$ 150/dia"
     }, {
-        id: 8,
+        id: 10,
         name: "Martelete 30 Kg Dewalt",
         description: "Escavações profundas e demolições em obras de grande porte.",
         image: "/imgs/dewalt 30kgg.png",
         specs: {
-            Mensal: "R$ 1.600/unit",
+            Mensal: "R$ 3.000/unit",
             Quantidades: "01 unidades disponíveis",
         },
-        price: "R$ 1.000/dia"
+        price: "R$ 200/dia"
     }, {
-        id: 9,
+        id: 11,
         name: "Sapatas",
         description: "Estrutura de suporte para fundações de edifícios e estruturas.",
-        image: "/imgs/sapatas.png",
+        image: "/imgs/sapatass.png",
         specs: {
             Mensal: "A definir",
             Quantidades: "08 unidades disponíveis",
         },
         price: "R$0,80/dia"
     }, {
-        id: 10,
+        id: 12,
         name: "Compactador de Solo",
         description: "Compactação de solo para fundações e pavimentação.",
         image: "/imgs/compactador-loccom-min.png",
@@ -108,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         price: "R$200/dia"
     }, {
-        id: 11,
+        id: 13,
         name: "Gerador de 3KVA",
         description: "Fornecimento de energia elétrica para canteiros de obras.",
         image: "/imgs/Gerador 3,5 Kva-min.png",
@@ -136,29 +162,29 @@ document.addEventListener('DOMContentLoaded', function() {
             Mensal: "R$2.000/unit",
             Quantidades: "01 unidades disponiveis",
         },
-        price: "R$ 200/dia"
+        price: "R$ 1,00/dia"
     }, {
-        id: 14,
+        id: 15,
         name: "Placa Vibratoria",
         description: "Compactação de solo para fundações e pavimentação.",
         image: "/imgs/placa vibratoria.png",
         specs: {
-            Mensal: "R$0,80/unit ",
-            Quantidades: "29 unidades disponiveis",
-        },
-        price: "R$ 1.50/dia"
-    }, {
-        id: 15,
-        name: "Vibrador de Concreto",
-        description: "Compactação de concreto em fundações e estruturas.",
-        image: "/imgs/concreto.png",
-        specs: {
-            Mensal: "R$1.600/unit",
-            Quantidades: "29 unidades disponiveis",
+            Mensal: "R$900/unit ",
+            Quantidades: " 01 unidades disponiveis",
         },
         price: "R$ 150/dia"
     }, {
         id: 16,
+        name: "Vibrador de Concreto",
+        description: "Compactação de concreto em fundações e estruturas.",
+        image: "/imgs/concreto.png",
+        specs: {
+            Mensal: "R$350,00/unit",
+            Quantidades: "02 unidades disponiveis",
+        },
+        price: "R$ 150/dia"
+    }, {
+        id: 17,
         name: "Rodas para Andaimes",
         description: "Rodas para movimentação de andaimes.",
         image: "/imgs/rodas para andaimes.png",
@@ -168,7 +194,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         price: "R$1,00/dia"
     }, {
-        id: 17,
+        id: 18,
         name: "Guarda Corpo",
         description: " Suporte para proteção de áreas de trabalho.",
         image: "/imgs/guardacorpo_1.png",
@@ -178,7 +204,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         price: "R$ 1.00/dia"
     }, {
-        id: 18,
+        id: 19,
         name: "Peneira Eletrica",
         description: "Peneiramento de materiais para construção.",
         image: "/imgs/peneira eletrica.png",
@@ -188,7 +214,7 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         price: "R$ 150/dia"
     }, {
-        id: 19,
+        id: 20,
         name: "Motor bomba",
         description: "Bombeamento de água para canteiros de obras.",
         image: "/imgs/motor bomba.png",
