@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
         description: "Estrutura de suporte para construção e manutenção de edifícios.",
         image: "/imgs/andaimes 11m.png",
         specs: {
-            Mensal: "R$0,80/unit",
+            Mensal: "R$24,00/unit",
          
         },
         price: "R$ 1,50/dia"
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         description: " suporte temporário para estruturas durante a construção.",
         image: "/imgs/escoras.png",
         specs: {
-            Mensal: "R$0,80/unit",
+            Mensal: "R$24,00/unit",
        
         },
         price: "R$ 0,80/dia"
@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', function() {
         description: " suporte temporário para estruturas durante a construção.",
         image: "/imgs/escoras.png",
         specs: {
-            Mensal: "R$1,50/unit",
+            Mensal: "R$45,00/unit",
       
         },
         price: "R$ 1,50/dia"
